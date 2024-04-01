@@ -314,9 +314,10 @@ a {
 }
 
 .featured .list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 70px;
     gap: 30px;
-    display: flex;
 }
 
 .featured .item {
